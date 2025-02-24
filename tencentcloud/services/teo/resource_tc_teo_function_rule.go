@@ -436,5 +436,6 @@ func resourceTencentCloudTeoFunctionRuleDelete(d *schema.ResourceData, meta inte
 
 	_ = response
 	_ = functionId
+	// _ = functionId
 	return nil
 }
